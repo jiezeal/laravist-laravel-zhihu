@@ -146,7 +146,10 @@ views/questions/create.blade.php
 
 api.php
 ```
-
+Route::get('/topics', function (Request $request) {
+    $topics = \App\Topic::select(['id', 'name'])->where('name', 'like', '%'.$request->query('q').'%')->get();
+    return $topics;
+})->middleware('api');
 ```
 
 
