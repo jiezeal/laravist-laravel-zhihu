@@ -96,7 +96,8 @@ php artisan tinker
 namespace App;
 factory(Topic::class, 11)->create()
 
-
+将生成的测试数据name字段更改成如下：
+![](image/screenshot_1491490093700.png)
 
 views/questions/create.blade.php
 ```
