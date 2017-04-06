@@ -36,7 +36,7 @@ views/layouts/app.blade.php
 views/questions/create.blade.php
 ```
 <div class="form-group">
-    <select class="js-example-basic-multiple" multiple="multiple">
+    <select class="js-example-basic-multiple form-control" multiple="multiple">
         <option value="AL">Alabama</option>
         <option value="WY">Wyoming</option>
     </select>
