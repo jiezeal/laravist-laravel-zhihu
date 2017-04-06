@@ -82,7 +82,14 @@ gulp
 
 database/factories/ModelFactory.php
 ```
-
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Topic::class, function (Faker\Generator $faker) {
+    return [
+        'name' => $faker->word,
+        'bio' => $faker->paragraph,
+        'questions_count' => 1
+    ];
+});
 ```
 
 views/questions/create.blade.php
