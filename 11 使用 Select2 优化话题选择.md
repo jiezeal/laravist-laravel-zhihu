@@ -28,6 +28,11 @@ http://select2.github.io/examples.html
 
 ![](image/screenshot_1491486269379.png)
 
+views/layouts/app.blade.php
+```
+@yield('js')
+```
+
 views/questions/create.blade.php
 ```
 <div class="form-group">
