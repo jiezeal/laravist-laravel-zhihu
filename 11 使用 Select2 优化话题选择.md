@@ -28,7 +28,15 @@ http://select2.github.io/examples.html
 
 ![](image/screenshot_1491486269379.png)
 
-
+views/questions/create.blade.php
+```
+<div class="form-group">
+    <select class="js-example-basic-multiple" multiple="multiple">
+        <option value="AL">Alabama</option>
+        <option value="WY">Wyoming</option>
+    </select>
+</div>
+```
 
 
 
