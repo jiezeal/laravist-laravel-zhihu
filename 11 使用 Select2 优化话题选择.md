@@ -92,6 +92,8 @@ $factory->define(App\Topic::class, function (Faker\Generator $faker) {
 });
 ```
 
+
+
 views/questions/create.blade.php
 ```
 <div class="form-group">
