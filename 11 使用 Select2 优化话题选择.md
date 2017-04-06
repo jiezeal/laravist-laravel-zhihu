@@ -65,6 +65,10 @@ views/questions/create.blade.php
 @stop
 ```
 
+gulpfile.js
+```
+mix.version(['js/app.js', 'css/app.css']);
+```
 
 
 
