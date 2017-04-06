@@ -175,7 +175,7 @@ public function store(StoreQuestionRequest $request)
 }
 ```
 
-
+![](image/screenshot_1491489366442.png)
 
 
 
