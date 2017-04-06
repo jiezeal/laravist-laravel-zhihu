@@ -70,6 +70,8 @@ gulpfile.js
 mix.version(['js/app.js', 'css/app.css']);
 ```
 
+views/layouts/app.blade.php
+
 gulp
 
 
