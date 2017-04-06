@@ -82,7 +82,11 @@ gulp
 
 views/questions/create.blade.php
 ```
-
+<div class="form-group">
+    <select name="topics[]" class="js-example-placeholder-multiple js-data-example-ajax form-control" multiple="multiple"></select>
+</div>
 ```
+
+
 
 
