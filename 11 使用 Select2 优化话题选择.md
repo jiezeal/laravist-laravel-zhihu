@@ -96,6 +96,8 @@ php artisan tinker
 namespace App;
 factory(Topic::class, 11)->create()
 
+
+
 views/questions/create.blade.php
 ```
 <div class="form-group">
