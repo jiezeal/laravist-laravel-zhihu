@@ -152,6 +152,8 @@ Route::get('/topics', function (Request $request) {
 })->middleware('api');
 ```
 
+![](image/screenshot_1491489297815.png)
+
 QuestionController.php
 ```
 /**
