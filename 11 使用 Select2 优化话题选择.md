@@ -70,7 +70,7 @@ gulpfile.js
 mix.version(['js/app.js', 'css/app.css']);
 ```
 
-
+gulp
 
 
 
