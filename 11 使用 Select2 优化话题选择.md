@@ -24,7 +24,7 @@ resources/assets/sass/app.scss
 
 gulp
 
-
+>http://select2.github.io/examples.html
 
 
 
