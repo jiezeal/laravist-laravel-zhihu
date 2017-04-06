@@ -92,7 +92,9 @@ $factory->define(App\Topic::class, function (Faker\Generator $faker) {
 });
 ```
 
-
+php artisan tinker
+namespace App;
+factory(Topic::class, 11)->create()
 
 views/questions/create.blade.php
 ```
