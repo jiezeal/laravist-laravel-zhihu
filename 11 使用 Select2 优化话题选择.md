@@ -26,6 +26,8 @@ gulp
 
 http://select2.github.io/examples.html
 
+![](image/screenshot_1491486269379.png)
+
 
 
 
