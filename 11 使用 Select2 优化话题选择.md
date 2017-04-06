@@ -80,7 +80,10 @@ gulp
 
 查看下拉框效果
 
+database/factories/ModelFactory.php
+```
 
+```
 
 views/questions/create.blade.php
 ```
