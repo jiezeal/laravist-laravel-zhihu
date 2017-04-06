@@ -71,8 +71,9 @@ mix.version(['js/app.js', 'css/app.css']);
 ```
 
 views/layouts/app.blade.php
-
 ```
+<link href="{{ elixir('css/app.css') }}" rel="stylesheet">
+
 ```
 
 gulp
