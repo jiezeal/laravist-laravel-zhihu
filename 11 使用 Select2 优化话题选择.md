@@ -152,7 +152,26 @@ Route::get('/topics', function (Request $request) {
 })->middleware('api');
 ```
 
+QuestionController.php
+```
+/**
+ * @param StoreQuestionRequest $request
+ * @return \Illuminate\Http\RedirectResponse
+ */
+public function store(StoreQuestionRequest $request)
+{
+    dd($request->get('topics'));
+    $data = [
+        'title' => $request->get('title'),
+        'body' => $request->get('body'),
+        'user_id' => Auth::id()
+    ];
 
+    $question = Question::create($data);
+
+    return redirect()->route('question.show', [$question->id]);
+}
+```
 
 
 
